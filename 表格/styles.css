@@ -1,0 +1,29 @@
+.first{
+   color: cornflowerblue;
+}
+table {
+    text-align: center;
+    border: 2px solid yellowgreen;
+}
+
+table, tr, td {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+
+header {
+    color: blueviolet;
+}
+
+thead {
+   color:lightpink;
+    background-color: aquamarine;
+}
+
+/* 修改带有类别 "first" 的单元格元素的文字颜色为蓝色 */
+
