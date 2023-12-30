@@ -1,0 +1,126 @@
+.right {
+    float: right;
+   margin-right: 15%;
+   margin-top: -5px;
+}
+.right a::before,
+.right  a::after {
+  content: "";
+  position: absolute;
+ border-color: coral;
+  border-style: solid;
+  border-width: 10px 0px;
+}
+.right a::before {
+    left: -10px;
+    border-left-color:transparent;
+  }
+  .right a{
+    color: #fff;
+    background:  coral;
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center; 
+    padding: 0 3px;
+}
+  .right a::after {
+    left: 100%;
+    border-color: transparent;
+    border-left-color:coral;
+  }
+  .right a:hover {
+    background-color: aquamarine;
+  }
+  .right  a:hover::before {
+    border-color: aquamarine;;
+    border-left-color: transparent;
+  }
+  .right  a:hover::after {
+    border-left-color: aquamarine;;
+  }
+
+
+nav{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    padding:10px 0;
+    margin: 5%;
+    color: #2c553c;
+}
+/* Part-one */
+.Website{
+    margin-left: 15%
+}
+.contain-one{
+    border: 2px solid gray;
+    width: 70%;
+    margin-left: 15%
+}
+.blue{
+    background-color: blue;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: aquamarine;
+}
+.beige{    
+    background-color: beige;
+}
+
+.colors li{
+    margin-left: -1%;
+    font-size: 180%;
+    padding-bottom: 4%; 
+    text-align: center;
+    padding-top:3%;
+    display: inline-block;
+    width: 30%;
+    height: 15%;
+}
+.colors .beige{
+    margin-top: 2%;
+}
+.colors .pink{
+    margin-left: 1%;
+}
+.colors .green{
+    margin-left: 1%;
+}
+/* Part-two */
+
+.contain-two{
+    margin-top: 1%;
+    border: 2px solid gray;
+    width: 70%;
+    margin-left: 15%
+}
+.one{
+    display: inline-block;
+    width:45%;
+    text-align: left;
+    margin-left: 2%;
+}
+.two{
+        display: inline-block;
+        width:52%;
+        text-align: left;     
+}
+.three{
+    text-align: left;
+    margin-left: 2%;
+}
+
+/* Part-three */
+.contain-three{
+    margin-top: 1%;
+    border: 2px solid gray;
+    width: 70%;
+    margin-left: 15%
+}
