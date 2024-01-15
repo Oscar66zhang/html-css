@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#ffa07a;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: cadetblue;  
+    position: fixed;
+}
+
+.text ul{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ul li{
+    display: inline-block;
+    padding-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner{
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('https://content.codecademy.com/PRO/independent-practice-projects/responsive-meetup-page/img/runner-splash.jpg');
+    background-position: center;
+    background-repeat: none;
+}
+  
+  .banner h1 {
+    color: Coral;
+    font-size: 2rem;
+    margin-top: 20rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+  .summary{
+    margin-top: 230px;
+    margin-left: 60px;
+  }
+  .summary h2{
+    color: gold;
+  }
+  .summary p{
+    color:white;
+    letter-spacing: 0.2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .picture{
+    display: inline-block;
+  }
+  .photo{
+    width: 450px;
+    height: 450px;
+  }
+  @media only screen and (min-width: 600px) {  
+    .picture {  
+      display: inline-block;  
+      margin-top: 50px;  
+    }  
+      
+    .photo {  
+      width: 400px;  
+      height: 400px;  
+      padding-left: 80px;  
+    }  
+  }
+
+  .contain-two{
+    width: 100%;
+    height: 350px;
+    background-color:cornflowerblue;
+    margin-top: 100px;
+  }
+  .build{
+   padding-top: 40px;
+   padding-left: 20px;
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+  }
+  .build h2{
+    color: cornsilk;
+  }
+
+  .build h5{
+    color: cornsilk;
+  }
+
+.activity{
+    text-align: center;
+    margin-top: 100px;
+    color: aquamarine;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.contain-three{
+    display: flex;
+    justify-content: center;
+  }
+  .moutain{
+   margin-top: 50px;
+    align-items: center;   
+    width: 800px;
+    height: 800px;
+  }
+
+  .activitise{
+    text-align: center;
+    margin-top: 50px;
+    color: aquamarine;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  footer{
+    width: 100%;
+    height: 60px;
+    background-color: cadetblue;  
+    bottom: 10px;
+}
+
+
+.contain .text ul{
+   bottom: 20px;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+.contain ul li{
+ 
+    display: inline-block;
+    padding-right: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: burlywood;
+    font-weight: bold;
+    font-size: 20px;
+}
+.type {
+padding-top: 30px;
+}
